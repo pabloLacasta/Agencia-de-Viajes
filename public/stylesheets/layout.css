@@ -1,0 +1,448 @@
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+   
+    }
+
+body{
+    margin:0;
+    padding: 0;
+    
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: baseline;
+    /* position:absolute; */
+    width: 99.5vw;;
+    padding-top: 1em;
+    padding-left: 4em;
+    padding-left: 2em;
+    background-color: rgb(19, 26, 55);
+}
+
+.agencia-brand img {
+    width: 13em;
+}
+
+.logoText {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+    font-weight: 800;
+    margin-top: 0;
+}
+
+.menu {
+    width: 30vw;
+    font-style: italic;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.menu a {
+    color: white;
+}
+
+.menuHamburguesa{
+    display: none;
+}
+
+.menuIcons {
+    width: 20vw;
+}
+
+.icons {
+    display: inline;
+}
+
+.nav-item-ico1 img {
+    width: 2em;
+    height: 2em;
+}
+
+.nav-item-ico2 img {
+    width: 2em;
+    height: 2em;
+}
+
+.nav-item-ico3 img {
+    width: 2.5vw;
+    height: 2.5vw;
+}
+.nav-item-ico4 img {
+    width: 2em;
+    height: 2em;
+}
+
+.nav-item-ico5 img {
+    width: 2em;
+    height: 2em;
+}
+
+.nav-item-ico6 img {
+    width: 2em;
+    height: 2em;
+}
+
+/*SECTION 1*/
+
+.intro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 99.5vw;
+    height: 100vh;
+    background-image: url("../images/nathan-anderson-316188-unsplash.jpg");
+    background-size: cover;
+    background-position: center center;
+    
+}
+.viaja{
+    display:flex;
+    flex-direction: column;
+    color: white;
+}
+
+.viaja > .viaja{
+    font-size: 5em;
+    font-weight: 700;
+}
+
+.viaja .descubre{
+    font-size: 3em;
+}
+
+.viaja a{
+    align-self: center;
+    font-size: 1.5em;
+    font-style: italic;
+    color: black;
+    background-color: rgb(254, 242, 0);
+    padding: 0.5em 0.5em;
+    margin-top: 2em;
+}
+
+/*SECTION2*/
+
+.destinos{
+    height: min(100vh);
+    width: 100vw;;
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 3em;
+}
+
+
+.bloque{
+    position: relative;
+    width: 17em;
+    height: 17em;
+    margin: 3em;
+}
+
+.beijing{
+    background-image: url(../images/beijing.JPG);
+    background-size: cover;
+}
+
+.buenosAires{
+    background-image: url(../images/buenos_aires.JPG);
+    background-size: cover;
+}
+
+.ciudadMexico{
+    background-image: url(../images/ciudad_mexico.JPG);
+    background-size: cover;
+}
+
+.madrid{
+    background-image: url(../images/madrid.JPG);
+    background-size: cover;
+}
+
+.newYork{
+    background-image: url(../images/new_york.JPG);
+    background-size: cover;
+}
+
+.Torrent{
+    background-image: url(../images/torrent.jpg);
+    background-size: cover;
+}
+
+.destino{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    bottom: 0;
+    width: 100%;
+    height: 2em;
+    background-color: white;
+    text-align: center;
+   
+}
+
+.save{
+    position: absolute;
+    top: 0;
+    background-color: rgb(19, 26, 55);
+    color: white;
+    padding: 1em;
+    width: 100%;
+}
+
+.price{
+    position: absolute;
+    background-color: rgb(254, 242, 0);
+    z-index: 1;
+    top: 0;
+    right: 0;
+    padding: 1em;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+/*SECTION3*/
+
+.quienesSomos{
+    position: relative;
+    height: 100vh;
+    width: 99.5vw;;
+    background-image: url(../images/chicoMochila.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding: 13vh 0 3vh 10vw;
+}
+
+.texto{
+    position: relative;
+    flex-direction: column;
+    display: inline-flex;
+    height: 75vh;
+    width: 45em;
+    background-color: white;
+    padding:  1em 7em 1em 4em;
+    
+}
+
+.tituloQuienes{
+    
+    color: rgb(19, 26, 55);
+    font-size: 2.7em;
+    margin: 0;
+    padding-left: 0.5em;
+}
+
+.subrayado{
+    background-color: rgb(254, 242, 0);
+    height: 0.5vh;
+    width: 17em;
+    margin-bottom: 1.5em;
+}
+
+.texto > p{
+    
+    color: rgb(19, 26, 55);
+    font-size: 1.5em;
+    text-align: justify;
+}
+
+.descubrir{
+    position: absolute;
+    bottom: 1em;
+    display: inline-flex;
+    background-color:  rgb(19, 26, 55);
+    padding: 0.5em 0.7em;
+    font-size: 2em;
+    font-weight: 700;
+    align-self: center;
+    margin-top: 1em;
+   
+}
+
+.descubrir > a{
+    color: rgb(254, 242, 0); 
+    position: block;  
+    align-self: center;
+}
+
+/*SECTION4*/
+
+.contacto{
+    height: min(100vh);
+    width: 99.5vw;;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 8em;
+}
+
+.linea{
+    background-color: rgb(0, 82, 255);
+    width: 2em;
+    height: 0.1em;
+    margin-bottom: 1em;
+}
+
+.formulario{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+}
+
+input:not(.message){
+    height: 2.5em;
+}
+input{
+    padding-left: 1em;
+}
+
+.message{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    height: 10em;   
+    padding-left: 1em;
+    padding-top: 1em; 
+}
+
+
+.please{
+    font-size: 0.7em;
+    margin-bottom: 5em;
+}
+
+.contactoYFormulario > a{
+    background-color: rgb(254, 242, 0);
+    color: black;
+    font-size: 2em;
+    font-style: italic;
+    padding: 0.5em 0.2em;
+}
+
+/*REGISTRO*/
+
+.registro{
+    width: 100vw;
+    height: 100vh;
+}
+
+/*FOOTER*/
+
+footer {
+    box-sizing: border-box;
+    background-color: rgb(19, 26, 55);
+    color: white;
+    text-decoration: none;
+    padding-top: 2em;
+    width: 99.5vw;
+}
+
+.grupo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-end ;
+
+}
+
+ul{
+    padding: 0 3em;
+}
+
+#titulo {
+    padding-bottom: 1.5em;
+    font-size: 1.5em;
+}
+
+.ayuda > #titulo{
+    font-size: 1.2em;
+}
+
+.ayuda {
+    display: inline-flex;
+    flex-direction: column;
+    position: relative;
+    line-height: 1em;
+    font-size: 1.5em;
+}
+
+
+.horario {
+    padding-top: 2em;
+    font-size: 0.7em;
+}
+
+.informacion {
+    font-size: 1.2em;
+    line-height: 1.3em;
+}
+
+.informacion li a {
+    color: white;
+}
+
+
+.suscripcion {
+    position: relative;
+}
+
+.suscripcion li a {
+    position: absolute;
+    color: black;
+    padding: 0.5em 0.2em;
+    background-color: rgb(254, 242, 0);
+    margin-top: 1.5em;
+}
+
+
+::placeholder {
+    font-size: 0.8em;
+    
+}
+
+
+.derecho {
+    text-align: center;
+    
+    width: 100%;
+    margin-top: 5em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    border-top: solid 1px black;
+    font-size: 0.7em;
+}
+
+@media   (max-width: 600px){
+    header{
+        background-color: rgb(19, 26, 55);
+    }
+
+    .menuIcons{
+        display: none;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .menuHamburguesa{
+        padding: 2em;
+        width: 5em;
+        display: block;
+        background-color: rgb(102, 193, 241);
+    }
+
+   
+    
+} 

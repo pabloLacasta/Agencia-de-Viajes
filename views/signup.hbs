@@ -1,0 +1,18 @@
+{{!-- Si creas el formulario con la etiqueta form, definiendo la acción y el método, ya sabe que en és cada input y qué ha de hacer el 
+botón. Es necesario ponerle name  al input, el mismo name que al modelo de usuario que hemos definido. --}}
+
+<section class="registro">
+        <h1 class="titRegistro">REGISTRO</h1>
+        <h2 class="subtitRegistro">¿Ya estás registrado?</h2>
+        <form  action="users/signup" method="POST">
+            <input type="text" name="name" placeholder="Nombre">
+            <input type="text" name="username" placeholder="Usuario">
+            <input type="text" name="email" placeholder="Email">
+            <input type="text" name="password" placeholder="Contraseña">
+            {{!-- <input type="text" name="password" placeholder="Repetir contraseña"> --}}
+            <p class="terminos">Acepto los términos y condiciones, así como la política de privacidad</p>
+            <button type="submit">Enviar</button>
+        </form>
+
+
+</section>
